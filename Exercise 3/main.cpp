@@ -56,8 +56,8 @@ int main() {
 
     // Output
     if (is_correct_IP(IPAddress)) {
-        std::cout << "Yes\n";
+        std::cout << "Valid\n";
     } else {
-        std::cout << "No\n";
+        std::cout << "Invalid\n";
     }
 }
