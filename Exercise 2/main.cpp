@@ -76,7 +76,7 @@ int main() {
     // Creating vars and quering data
     std::string str;
 
-    std::cout << "Input mail box:\n";
+    std::cout << "Input name of mail box:\n";
     std::cin >> str;
 
     std::cout << "\n";
