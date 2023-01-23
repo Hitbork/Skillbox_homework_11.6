@@ -48,5 +48,5 @@ int main() {
 
     // Output using functions
     std::cout << "Result of encrypt:\n" << encrypt_caesar(input, number) << "\n\n";
-    std::cout << "Result of decrypt:\n" << decrypt_caesar(input, number) << "\n\n";
+    std::cout << "Result of decrypt:\n" << decrypt_caesar(input, number) << "\n";
 }
