@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 // Function of encrypting to Caesar
 std::string encrypt_caesar(std::string text, int pos) {
     // Creating var to input a result
@@ -20,7 +19,6 @@ std::string encrypt_caesar(std::string text, int pos) {
     // Returning result
     return result;
 }
-
 
 // Function of decrypting to Caesar
 std::string decrypt_caesar(std::string text, int pos) {
@@ -50,5 +48,5 @@ int main() {
 
     // Output using functions
     std::cout << "Result of encrypt:\n" << encrypt_caesar(input, number) << "\n\n";
-    std::cout << "Result of decrypt:\n" << decrypt_caesar(input, number) << "\n";
+    std::cout << "Result of decrypt:\n" << decrypt_caesar(input, number) << "\n\n";
 }
